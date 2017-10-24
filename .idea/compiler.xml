@@ -9,8 +9,8 @@
         <module name="Brat-V2-Coords" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="Brat-V2-Coords" target="1.8" />
+    <bytecodeTargetLevel target="1.8">
+      <module name="Brat-V2-Coords" target="1.7" />
     </bytecodeTargetLevel>
   </component>
 </project>

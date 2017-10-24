@@ -5,9 +5,9 @@ import at.ac.oeaw.gmi.brat.segmentation.output.PlateCoordinates;
 
 import java.awt.*;
 import java.io.*;
-import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
+import java.io.IOException;
 
 public class Brat_V2_Coords {
     private PlateCoordinates pc;
@@ -29,7 +29,7 @@ public class Brat_V2_Coords {
             System.out.println(String.format("%.6fs\n", (System.nanoTime() - start)/1.0e9));
         } catch (NullPointerException | ClassNotFoundException | IOException e) {
             System.out.println("failed.\n");
-//            e.printStackTrace();
+            e.printStackTrace();
         }
 
         if (objInput != null){
@@ -61,3 +61,5 @@ public class Brat_V2_Coords {
        }
     }
 }
+
+
