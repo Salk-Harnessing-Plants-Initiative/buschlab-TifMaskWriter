@@ -6,3 +6,5 @@ a qc file to create segementation info tiff with pixel values set to:
 2 for shoot  
 3 for overlapping regions of root and shoot  
 4 for root main path
+
+all file paths still hardcoded...
